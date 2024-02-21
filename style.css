@@ -1,0 +1,99 @@
+/* .main{
+    width: auto;
+    height: auto;
+    background-color: black;
+} */
+
+html, body, p{
+    font-family: "Poppins", sans-serif;
+    /* background-color: rgb(250, 245, 238); */
+}
+
+#hot-promo{
+    width: 100%;
+    height: 680px;
+
+}
+
+
+#promosi {
+ 
+        background-color:#F6EBDA;
+        width: 100%; /* lebar card */
+        height: 45%;
+        background-image: url(/assets/images/bg-hero-2.png);
+        background-size: 32%;
+        background-repeat: no-repeat;
+
+
+      
+}
+
+#promosi p{
+    font-size: 25px;
+    font-weight: 600;
+    display: inline-block;
+    background-color:#F6EBDA;
+}
+
+#underline {
+    position: relative;
+    display: inline-block;
+}
+
+#underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjust as needed */
+    width: 100%;
+    height: 3px; /* Adjust the height to control the size of the underline */
+    background-color: orange; /* Adjust the color as needed */
+    border-radius: 10px; /* Adjust the roundness of the corners */
+}
+
+#card{
+    display: flex;
+    z-index: 3;
+}
+
+.keranjang{
+    background-color: orange;
+    color: white;
+}
+
+#background-card{
+    background-color:#F9D9AA;
+    width: 80%;
+    height: 250px;
+    position: relative;
+    bottom: 200px;
+    margin: auto;
+    z-index: 1;
+    border-radius: 50px;
+
+
+}
+
+#guide h2{
+   padding-left: 120px ;
+}
+
+#guide p{
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#how-to {
+    display: flex;
+    justify-content: center;
+  }
+
+#steps {
+
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+  }
